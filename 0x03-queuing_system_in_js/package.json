@@ -5,12 +5,14 @@
   "main": "0-redis_client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec babel-node 0-redis_client.js"
+    "dev": "nodemon --exec babel-node 100-seat.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.21.1",
+    "kue": "^0.11.6",
     "redis": "^4.7.0"
   },
   "devDependencies": {
